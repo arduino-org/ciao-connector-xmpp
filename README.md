@@ -66,7 +66,7 @@ file `xmpp/xmpp.json.conf`:
 	"ssl" : false
 },
 ...
-
+```
 ## How To Use
 Open [Arduino IDE](http://www.arduino.org/software), import
 Arduino Ciao Library in your sketch and take a look at the

@@ -21,8 +21,8 @@ Download the zip file of the latest [release](https://github.com/arduino-org/cia
 unzip and move it via `scp` inside you board in the desired location.
 **Be sure to move `smtp.ciao.conf.json` file into the ciao directory**, eg:
 ```
-$ scp /Users/sergio/Downloads/ciao-connector-xmpp/xmpp.ciao.conf.json root@arduino.local:/usr/lib/python2.7/ciao/conf/
-$ scp -r /Users/sergio/Downloads/ciao-connector-xmpp/xmpp root@arduino.local:/root/.ciao/
+$ scp ~/Downloads/ciao-connector-xmpp/xmpp.ciao.conf.json root@arduino.local:/usr/lib/python2.7/ciao/conf/
+$ scp -r ~/Downloads/ciao-connector-xmpp/xmpp root@arduino.local:/root/.ciao/
 ```
 
 ## Configuration
